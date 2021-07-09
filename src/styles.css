@@ -25,8 +25,12 @@ a:hover {
   text-decoration: none;
 }
 
-.select2-container{
+/*.select2-container{
     width: 100% !important;
+}*/
+span.select2 {
+    width: 100% !important;
+    max-width: 100%;
 }
 span.select2-selection.select2-selection--single{
     border: 0 !important;
@@ -59,6 +63,7 @@ button.btn {
     height: 40px;
     font-size: 14px;
     font-weight: 500;
+    max-width: 100%;
 }
 .btn-black {
     background: #28263E;

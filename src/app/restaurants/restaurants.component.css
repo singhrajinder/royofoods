@@ -1,0 +1,22 @@
+.section-restaurants .wrapper .content {
+    background-color: #E5E5E5;
+    padding: 20px;
+}
+.section-restaurants .wrapper {
+    margin-bottom: 30px;
+}
+.section-restaurants .wrapper img {
+    width: 100%;
+    border-bottom: 5px solid #fff;
+}
+.section-restaurants .wrapper .content h3 {
+    color: #6D6B6B;
+    font-weight: 700;
+}
+.section-restaurants .wrapper .content p {
+    font-weight: 300;
+}
+i.fa.fa-heart {
+    color: #d92330;
+}
+

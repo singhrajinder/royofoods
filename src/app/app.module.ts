@@ -7,13 +7,17 @@ import { SliderModule } from 'angular-image-slider';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
+import { SpecialOfferComponent } from './special-offer/special-offer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    RestaurantsComponent,
+    SpecialOfferComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f3f3;
+}
+h3{
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.select2-container{
+    width: 100% !important;
+}
+span.select2-selection.select2-selection--single{
+    border: 0 !important;
+}
+.form-control{
+  box-shadow: none !important;
+  outline: none !important;
+}
+input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+*:focus{
+  outline: none;
+}
+a:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+button.btn {
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 28px;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 100%;
+}
+.btn-black {
+    background: #28263E;
+}
+.btn-orange {
+    background: #D92330;
+}
+button.btn:hover {
+    color: #fff;
+}
+section {
+    padding: 20px 0;
+}
+
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+:root {
+  --btn-black: #28263E;
+  --btn-orange: #D92330;
+  
+}

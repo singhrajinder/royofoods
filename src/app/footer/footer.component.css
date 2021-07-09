@@ -1,0 +1,31 @@
+section.footer-section {
+    background: #28263E;
+    padding: 30px 0;
+}
+h3.title {
+    color: #fff;
+    font-weight: normal;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+ a{
+    color: #fff;
+    font-weight: 100;
+}
+ a: hover{
+    color: #fff;
+}
+.footer-section li {
+    margin-bottom: 5px;
+}
+p{
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 100;
+}
+.footer-section img {
+    width: 200px;
+    margin-bottom: 10px;
+}

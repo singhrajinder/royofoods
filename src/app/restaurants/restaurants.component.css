@@ -19,4 +19,9 @@
 i.fa.fa-heart {
     color: #d92330;
 }
-
+.section-restaurants h3.title{
+    padding: 25px 0;
+}
+.row.border-bottom{
+    border-bottom: 1px solid #8C8989!important;
+}

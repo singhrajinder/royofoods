@@ -24,7 +24,9 @@ a:hover {
   color: #fff;
   text-decoration: none;
 }
-
+.section-class {
+    margin: 0 50px;
+}
 /*.select2-container{
     width: 100% !important;
 }*/
@@ -60,9 +62,9 @@ button.btn {
     border-radius: 28px;
     text-align: center;
     width: 150px;
-    height: 40px;
+    height: 45px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
     max-width: 100%;
 }
 .btn-black {
@@ -77,7 +79,9 @@ button.btn:hover {
 section {
     padding: 20px 0;
 }
-
+::placeholder{
+  color: #8C8989;
+}
 
 img {
   object-fit: cover;
@@ -88,4 +92,7 @@ img {
   --btn-black: #28263E;
   --btn-orange: #D92330;
   
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #8C8989 !important;
 }

@@ -29,3 +29,31 @@ p{
     width: 200px;
     margin-bottom: 10px;
 }
+.dot-wrapper{
+    display: block;
+    border-bottom: 1px solid #6d6b6b;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.dot-content{
+    display: flex;
+    justify-content: center;
+}
+span.dot {
+    display: block;
+    margin: 0 0.5em;
+    width: 10px;
+    height: 10px;
+    
+    border-radius: 100px;
+}
+.fill{
+    background: #fff;
+}
+.fill-1 {
+    background: #D2D0D0;
+}
+.fill-2{
+    background: #6D6B6B;;
+}

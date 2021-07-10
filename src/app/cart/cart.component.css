@@ -1,0 +1,26 @@
+.cart-wrapper {
+    background: #fff;
+    text-align: center;
+    margin: 10px 0 30px;
+    padding: 0 0 30px;
+}
+.cart-wrapper  p{
+    font-size: 36px;
+    line-height: 42px;
+    color: #B1B1B1;
+}
+.cart-wrapper  a{
+    font-size: 28px;
+line-height: 33px;
+color: #D92330;
+}
+.cart-wrapper::after {
+    content: "";
+    border-bottom: 1px solid #8c8989;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    height: 1px;
+    left: 20px;
+    max-width: 100%;
+}

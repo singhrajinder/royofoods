@@ -14,7 +14,7 @@ ul{
     color: #fff;
     font-weight: 100;
 }
- a: hover{
+ a:hover{
     color: #fff;
 }
 .footer-section li {
@@ -42,7 +42,7 @@ p{
 }
 span.dot {
     display: block;
-    margin: 0 0.5em;
+    margin: 0 3px;
     width: 10px;
     height: 10px;
     

@@ -41,4 +41,11 @@
 }
 .row.border-bottom{
     border-bottom: 1px solid #8C8989!important;
+    padding-bottom: 30px;
+}
+section.section-offer{
+    padding-bottom: 50px;
+}
+section.section-offer h3.title{
+font-weight: 300;
 }

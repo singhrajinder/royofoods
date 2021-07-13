@@ -10,7 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { SpecialOfferComponent } from './special-offer/special-offer.component';
 import { CartComponent } from './cart/cart.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { WhatsTrendingComponent } from './whats-trending/whats-trending.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { LoginComponent } from './login/login.component';
     RestaurantsComponent,
     SpecialOfferComponent,
     CartComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent,
+    WhatsTrendingComponent
   ],
   imports: [
     BrowserModule,

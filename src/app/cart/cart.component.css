@@ -1,7 +1,7 @@
 .cart-wrapper {
     background: #fff;
     text-align: center;
-    margin: 10px 0 30px;
+    margin: 10px 0 50px;
     padding: 0 0 30px;
 }
 .cart-wrapper  p{
@@ -23,4 +23,7 @@ color: #D92330;
     height: 1px;
     left: 20px;
     max-width: 100%;
+}
+section.section-cart{
+    padding: 0px 0 50px;
 }

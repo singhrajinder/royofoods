@@ -42,10 +42,10 @@
                 
                 <div class="col-md-7 button-col">
                   <div class="buttons">
-                    <a href="" class=" "><button class="btn btn-black">whats trending </button></a>
-                    <a href="" class=" "><button class="btn btn-orange"><i class="fa fa-shopping-cart" aria-hidden="true"></i> cart </button></a>
-                    <a href="" class=" "><button class="btn btn-orange"><i class="fa fa-user" aria-hidden="true"></i> login </button></a>
-                    <a href="" class=" "><button class="btn btn-orange"><i class="fa fa-user-plus" aria-hidden="true"></i> signup </button></a>
+                    <button class="btn btn-black">whats trending </button>
+                    <button class="btn btn-orange" [routerLink]="['cart']"><i class="fa fa-shopping-cart" aria-hidden="true"></i> cart </button>
+                    <button class="btn btn-orange" data-toggle="modal" data-target="#myModal"><i class="fa fa-user" aria-hidden="true"></i> login </button>
+                    <button class="btn btn-orange" data-toggle="modal" data-target="#myModal1"><i class="fa fa-user-plus" aria-hidden="true"></i> signup </button>
                   </div>
                 </div>
               </div>
@@ -53,3 +53,5 @@
           </div>
       </div>
   </header>
+ <app-login></app-login>
+ <app-signup></app-signup>

@@ -96,3 +96,125 @@ img {
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: #8C8989 !important;
 }
+button:focus{
+  outline: none !important;
+}
+.modal-dialog{
+  width: 420px;
+  max-width: 100%;
+
+}
+.modal-header{
+  border-bottom: 0;
+}
+.modal-content{
+  height: 800px;
+}
+.modal-body{
+  width: 350px;
+  margin: auto;
+  max-width: 100%;
+  padding-top: 0;
+}
+button.close{
+  background: #d82430;
+  opacity: 1;
+  color: #fff;
+  margin: 1px 1px 1px auto !important;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+.login-btn{
+  text-align: center;
+}
+.login-btn .email-btn {
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  height: 43px;
+  width: 328px;
+  margin: auto;
+  max-width: 100%;
+}
+.login-btn .email-btn button.btn {
+  border-radius: 0;
+  background: none;
+  text-transform: capitalize;
+    font-size: 18px;
+    font-weight: normal;
+    width: 50%;
+    height: 43px;
+}
+.login-btn .email-btn button.btn.email{
+  text-align: left;
+  border-right: 1px solid #48456F;
+  
+  
+}
+.login-btn .email-btn button.btn.phone{
+  text-align:right;
+}
+.email-btn i.fa {
+  font-size: 12px;
+}
+.fa-eye{
+  position: absolute;
+    right: 25px;
+    top: 5px;
+    padding: 6px 8px;
+    color: black !important;
+    transition: .3s;
+}
+form.login-form.form {
+  margin-top: 30px;
+}
+input.form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #8c8989;
+}
+a.forget-psw {
+  color: #D92330;
+  font-size: 18px;
+}
+::placeholder{
+  color: #6D6B6B;
+}
+button.btn.login{
+  width: 100%;
+  border-radius: 18px;
+  font-size: 18px;
+  margin: 10px 0 60px;
+  height: 43px;
+}
+.social{
+  border: 2px solid #8C8989;
+}
+.social button.btn{
+      color: #000;
+      font-size: 15px !important;
+  font-weight: 700 !important;
+}
+button.btn.btn-black.facebook {
+  border-right: 1px solid #8C8989;
+}
+.p-text p{
+  color: #8C8989;
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: normal;
+}
+.p-text a{
+  color: #d92330;
+}
+@media screen and (max-width:400px) {
+  .login-btn .email-btn button.btn{
+    font-size: 14px !important;
+  }
+}

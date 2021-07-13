@@ -1,7 +1,7 @@
 section.section-home-banner{
   
     background: #f5f3f3;
-    padding: 20px 0;
+    padding: 10px 0 20px;
 }
 .home-banner{
   position: relative;
@@ -223,9 +223,34 @@ span.span-heart {
     height: 130px;
     width: 267px;
 }
-
+.section-restaurants .wrapper .content {
+    background-color: #E5E5E5;
+    padding: 20px;
+    height: 140px;
+}
+.section-restaurants .wrapper {
+    margin-bottom: 30px;
+}
+.section-restaurants .wrapper img {
+    width: 100%;
+    border-bottom: 5px solid #fff;
+}
+.section-restaurants .wrapper .content h3 {
+    color: #6D6B6B;
+    font-weight: 700;
+}
+.section-restaurants .wrapper .content p {
+    font-weight: 300;
+}
+.section-restaurants i.fa.fa-heart {
+    color: #d92330;
+}
+.section-restaurants h3.title{
+    padding: 0px 0 20px;
+    font-weight: 300;
+}
 @media screen and (max-width: 1125px){
-    .section-offer .wrapper .content {
+    .section-offer .wrapper .content, .section-restaurants .wrapper .content {
     height: auto;
 }
 }

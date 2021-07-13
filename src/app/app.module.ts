@@ -13,6 +13,7 @@ import { CartComponent } from './cart/cart.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { WhatsTrendingComponent } from './whats-trending/whats-trending.component';
+import { ChineseFoodComponent } from './chinese-food/chinese-food.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { WhatsTrendingComponent } from './whats-trending/whats-trending.componen
     CartComponent,
     LoginComponent,
     SignupComponent,
-    WhatsTrendingComponent
+    WhatsTrendingComponent,
+    ChineseFoodComponent
   ],
   imports: [
     BrowserModule,

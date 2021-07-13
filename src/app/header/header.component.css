@@ -21,7 +21,7 @@ header{
     line-height: 2;
     border-radius: 4px;
 }
-i.fa {
+em.fa {
     color: #fff;
 }
 .search-bar{
@@ -35,7 +35,7 @@ i.fa {
     position: absolute;
     top: 10px;
 }
-.search-bar i.fa{
+.search-bar em.fa{
   color: #8C8989;
     
 }

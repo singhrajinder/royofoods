@@ -1,23 +1,237 @@
-.wrapper {
+.trending-section .wrapper {
     background: #fff;
     text-align: center;
     padding: 70px 0;
 }
 
-.text {
+.trending-section .text {
     border: 1px solid #8C8989;
-    font-size: 48px;
+    font-size: 34px;
     color: #8C8989;
-    border-radius: 29px;
-    line-height: 56px;
+    border-radius: 28px;
+    display: inline-block;
+    padding: 0 20px;
 }
-.buttons {
+.trending-section .buttons {
     margin-top: 30px;
 }
-.btn-outline {
-    border: 2px solid #D92330;
-    color: #d92330 !important;
-    width: 300px !important;
-    height: 50px !important;
+.trending-section .btn-outline {
+    width: 200px !important;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1;
+}
+.trending-section .col-md-2.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.trending-section img.img-first{
+    position: relative;
+    left: -45px;
+}
+.trending-section img.img-second {
+    position: relative;
+    top: 70px;
+}
+.trending-section .content{
+    margin: 15px;
+}
+section.user-section .wrapper {
     background: #fff;
+    text-align: center;
+    padding: 50px 30px 10px;
+    height: 571px;
+    margin-bottom: 10px;
+}
+section.user-section .wrapper .content{
+    padding: 40px 40px 10px;
+}
+section.user-section .wrapper .content p{
+    color: #8C8989;
+    margin-bottom: 40px;
+}
+section.user-section .wrapper .content p.last{
+    color: #000;
+    margin-bottom: 1rem;
+}
+section.user-section .second-wrapper {
+    text-align: center;
+    color: #fff;
+    padding: 30px 0 10px;
+}
+section.user-section .second-wrapper .link, .link-2 {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+    width: 70%;
+    max-width: 100%;
+    margin: auto;
+    height: 50px;
+    line-height: 2.7;
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.user-section .second-wrapper .link-2 {
+    background: #C4C4C4;
+    color: #28263e !important;
+}
+section.user-section .second-wrapper .link a{
+    color:#fff;
+}
+section.user-section .second-wrapper .link-2 a{
+    color: #28263e;
+}
+section.user-section .second-wrapper h3{
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 138.69%;
+    margin-bottom: 20px;
+}
+section.user-section .third-wrapper {
+    margin: 10px 0;
+    color: #fff;
+    padding: 25px;
+}
+section.user-section .third-wrapper h3{
+    font-size: 28px;
+    font-weight: normal;
+}
+section.user-section .third-wrapper a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+section.user-section .fourth-wrapper {
+    padding: 20px;
+}
+section.user-section .fourth-wrapper .content {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section.user-section .fourth-wrapper .content .text, .order-section .wrapper .content .text, .order-section .comment-wrapper .content .text, .single-order-section .wrapper .content .text {
+    padding-left: 20px;
+}
+section.user-section .fourth-wrapper .content .text h4, .order-section .wrapper .content .text h4, .order-section .comment-wrapper .content .text h4, .single-order-section .wrapper .content .text h4{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    line-height: 138.69%;
+    margin-bottom: 0;
+}
+section.user-section .fourth-wrapper .content .text span, .order-section .wrapper .content .text span, .order-section .comment-wrapper .content .text span, .single-order-section .wrapper .content .text span{
+    font-size: 14px;
+    line-height: 138.69%;
+    color: #8C8989;
+}
+section.user-section .fourth-wrapper .content .notify-img {
+    margin-left: auto;
+}
+section.user-section .fourth-wrapper h3{
+    font-size: 21px;
+}
+section.user-section .fourth-wrapper span{
+    font-size: 15px;
+    color: #8C8989;
+}
+section.order-section .wrapper, .single-order-section .wrapper {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 8px 18px rgb(0 0 0 / 25%);
+    z-index: 1;
+    position: relative;
+}
+.order-section .wrapper .content, .order-section .comment-wrapper .content, .single-order-section .wrapper .content {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.order-section .wrapper .content .text h4, .single-order-section .wrapper .content .text h4{
+    font-size: 24px !important;
+}
+.order-section .wrapper .content .text span, .single-order-section .wrapper .content .text span{
+    font-size: 18px !important;
+}
+.order-section .wrapper p{
+    font-size: 14px;
+    line-height: 138.69%;
+}
+.order-section .img-overtext span, .single-order-section .img-overtext span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.order-section .ordr-btn, .single-order-section .ordr-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    transform: translateX(-50px);
+}
+.order-section .ordr-btn button.btn, .single-order-section .ordr-btn button.btn {
+    border-radius: 0;
+}
+.order-section .overlay, .single-order-section .overlay{
+    position: relative;
+}
+.order-section .comment-wrapper {
+    background: #fff;
+    padding: 20px;
+}
+.order-section .comment-wrapper p{
+    font-size: 21px;
+}
+.recipes-section .main-wrapper {
+    background: #fff;
+    padding: 30px 20px;
+}
+.recipes-section .main-wrapper h4 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.recipes-section h3.title {
+    font-size: 24px;
+    line-height: 138.69%;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.recipes-section .star span {
+    margin-right: 8px;
+    
+    font-size: 20px;
+}
+.recipes-section span.rate {
+    color: #d92330;
+}
+.green{
+    color: #019d3f;
+}
+.grey{
+    color: #d8d8d8;
+}
+.view-wrapper {
+    display: flex;
+    align-items: center;
+}
+.view-wrapper em.fa{
+    font-size: 30px;
+}
+.view-wrapper a {
+    color: #d92330;
+    margin-left: auto;
+}
+@media screen and (max-width:576px){
+    .trending-section .btn-outline {
+        width: 150px !important;
+        font-size: 14px;
+}
+.trending-section .text{
+    font-size: 30px;
+}
+
 }

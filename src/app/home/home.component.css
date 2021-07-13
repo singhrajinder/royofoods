@@ -64,7 +64,7 @@ span.select2-selection.select2-selection--single{
     position: absolute;
     top: 10px;
 }
-.search-bar i.fa{
+.search-bar em.fa{
   color: #8C8989;
     
 }
@@ -93,7 +93,7 @@ span.select2-selection.select2-selection--single{
     line-height: 21px;
     color: #6D6B6B;
 }
-.location-wrapper i.fa{
+.location-wrapper em.fa{
   color: #d92330;
 }
 .section-offer .wrapper {
@@ -120,7 +120,7 @@ span.select2-selection.select2-selection--single{
     font-weight: 300;
     margin-bottom: 5px;
 }
-  .section-offer .wrapper .content i.fa.fa-heart {
+  .section-offer .wrapper .content em.fa.fa-heart {
     color: #bdbdbd;
 }
 .section-offer .wrapper .content p.price{
@@ -147,7 +147,7 @@ a.view-all {
 }
 a.view-all::after {
     content: "\f105";
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome',sans-serif;
     margin-left: 5px;
     position: relative;
 }
@@ -215,7 +215,7 @@ span.span-heart {
     justify-content: center;
     align-items: center;
 }
-.cat-wrapper i.fa.fa-heart-o {
+.cat-wrapper em.fa.fa-heart-o {
     color: #d92330;
     font-weight: 700;
 }
@@ -242,7 +242,7 @@ span.span-heart {
 .section-restaurants .wrapper .content p {
     font-weight: 300;
 }
-.section-restaurants i.fa.fa-heart {
+.section-restaurants em.fa.fa-heart {
     color: #d92330;
 }
 .section-restaurants h3.title{

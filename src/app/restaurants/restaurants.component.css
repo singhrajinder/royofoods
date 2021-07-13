@@ -16,7 +16,7 @@
 .section-restaurants .wrapper .content p {
     font-weight: 300;
 }
-.section-restaurants i.fa.fa-heart {
+.section-restaurants em.fa.fa-heart {
     color: #d92330;
 }
 .section-restaurants h3.title{

@@ -73,6 +73,11 @@ button.btn {
 .btn-orange {
     background: #D92330;
 }
+.btn-outline {
+  border: 2px solid #D92330;
+  color: #d92330 !important;
+  background: #fff;
+}
 button.btn:hover {
     color: #fff;
 }

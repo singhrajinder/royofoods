@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-special-offer',
@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./special-offer.component.css']
 })
 export class SpecialOfferComponent implements OnInit {
-
+ 
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

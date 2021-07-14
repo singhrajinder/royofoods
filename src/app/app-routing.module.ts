@@ -8,6 +8,10 @@ import { CartComponent } from './cart/cart.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { WhatsTrendingComponent } from './whats-trending/whats-trending.component';
+import { OfferCardComponent } from './components/offer-card/offer-card.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { CategoryCardComponent } from './components/category-card/category-card.component';
+import { ParadiseComponent } from './paradise/paradise.component';
 const routes: Routes = [
 {
     path: '',
@@ -39,6 +43,22 @@ const routes: Routes = [
   {
     path: 'whats-trending',
     component: WhatsTrendingComponent
+  },
+  {
+    path: 'offer-card',
+    component: OfferCardComponent
+  },
+  {
+    path: 'category-card',
+    component: CategoryCardComponent
+  },
+  {
+    path: 'categories',
+    component: CategoriesComponent
+  },
+  {
+    path: 'paradise',
+    component: ParadiseComponent
   },
   ];
 

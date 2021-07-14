@@ -7,13 +7,14 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f5f3f3;
+  color: #000000;
 }
 h3{
   font-size: 24px;
 }
 a {
   text-decoration: none;
-  
+
 }
 
 a:hover {
@@ -87,16 +88,49 @@ section {
 ::placeholder{
   color: #8C8989;
 }
-
+.wrap{
+  margin-bottom: 20px;
+}
+.border-bottom{
+  border-bottom: 1px solid #8c8989!important;
+}
 img {
   object-fit: cover;
   max-width: 100%;
 }
-
+.section-title {
+  background: #d92330;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 0;
+}
+.section-title h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.title-section {
+  background: #C4C4C4;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  color: #6D6B6B;
+}
+.title-section h3{
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.categories-section h5 {
+  font-size: 18px;
+  line-height: 21px;
+  color: #4D4B4B;
+  margin-bottom: 20px;
+}
 :root {
   --btn-black: #28263E;
   --btn-orange: #D92330;
-  
+
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     color: #8C8989 !important;
@@ -159,8 +193,8 @@ button.close{
 .login-btn .email-btn button.btn.email{
   text-align: left;
   border-right: 1px solid #48456F;
-  
-  
+
+
 }
 .login-btn .email-btn button.btn.phone{
   text-align:right;

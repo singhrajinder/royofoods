@@ -1,0 +1,44 @@
+ .wrapper {
+    background: #fff;
+    margin: 20px 0;
+}
+ .wrapper .content {
+    padding: 20px;
+    height: 150px;
+}
+ .wrapper .content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    color: #6D6B6B;
+}
+ .wrapper .content h6 {
+    font-size: 14px;
+    color: #6D6B6B;
+}
+ .wrapper .content p {
+    font-size: 14px;
+    color: #6D6B6B;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+   .wrapper .content em.fa.fa-heart {
+    color: #bdbdbd;
+}
+ .wrapper .content p.price{
+  font-weight: 600;
+}
+ .wrapper img {
+    border-bottom: 5px solid #8C8989;
+    width: 100%;
+}
+ .wrapper .content button.btn {
+    border-radius: 0;
+    width: 60px;
+    height: 100%;
+    padding: 2px 10px;
+}
+ .wrapper.wrapper-special {
+   width: 80%;
+   margin: 20px auto;
+ }

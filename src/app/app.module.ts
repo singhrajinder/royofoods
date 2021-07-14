@@ -13,7 +13,11 @@ import { CartComponent } from './cart/cart.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { WhatsTrendingComponent } from './whats-trending/whats-trending.component';
-import { ChineseFoodComponent } from './chinese-food/chinese-food.component';
+import { OfferCardComponent } from './components/offer-card/offer-card.component';
+import { CategoryCardComponent } from './components/category-card/category-card.component';
+import { CategoriesComponent } from './categories/categories.component';
+import { ParadiseComponent } from './paradise/paradise.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +31,10 @@ import { ChineseFoodComponent } from './chinese-food/chinese-food.component';
     LoginComponent,
     SignupComponent,
     WhatsTrendingComponent,
-    ChineseFoodComponent
+    OfferCardComponent,
+    CategoryCardComponent,
+    CategoriesComponent,
+    ParadiseComponent,
   ],
   imports: [
     BrowserModule,

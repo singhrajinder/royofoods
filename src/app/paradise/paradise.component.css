@@ -1,0 +1,155 @@
+th {
+  width: 50%;
+  padding: 5px 0;
+  font-size: 18px;
+}
+td {
+  width: 50%;
+  color: #6D6B6B;
+  padding: 5px 0;
+  font-size: 18px;
+}
+span.span-star {
+  background: #019D3F;
+  color: #fff;
+  height: 28px;
+  width: 55px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+em.fa.fa-heart-o{
+  color: #6D6B6B;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 24px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2ab934;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(55px);
+  -ms-transform: translateX(55px);
+  transform: translateX(55px);
+}
+
+/*------ ADDED CSS ---------*/
+.on
+{
+  display: none;
+}
+
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 40%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+.off{
+  transform: translate(-20%,-50%) !important;
+}
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+/*--------- END --------*/
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 19px;
+}
+
+.slider.round:before {
+  border-radius: 50%;}
+.switch-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.btns {
+  margin: 5px 30px 10px 0;
+}
+button.btn.book{
+  width: 120px;
+  height: 34px;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: normal;
+}
+.description-section .col-md-3 p{
+  margin: 20px 0px;
+}
+.description-section .wrapper p {
+  font-size: 18px;
+  line-height: 21px;
+  color: #8C8989;
+}
+.text-right-text{
+  text-align: right;
+}
+@media screen and (max-width: 776px){
+  .second-wrapper{
+    justify-content: center;
+    margin-top:20px
+  }
+  .switch-wrapper {
+    justify-content: center;
+  }
+  .text-right-text{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 275px){
+  .switch-wrapper {
+    display: block;
+  }
+  .btns{
+    margin:0;
+  }
+}

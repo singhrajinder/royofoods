@@ -96,46 +96,7 @@ span.select2-selection.select2-selection--single{
 .location-wrapper em.fa{
   color: #d92330;
 }
-.section-offer .wrapper {
-    background: #fff;
-    margin: 20px 0;
-}
-.section-offer .wrapper .content {
-    padding: 20px;
-    height: 150px;
-}
-.section-offer .wrapper .content h3 {
-    font-size: 18px;
-    font-weight: 600;
-    font-style: normal;
-    color: #6D6B6B;
-}
-.section-offer .wrapper .content h6 {
-    font-size: 14px;
-    color: #6D6B6B;
-}
-.section-offer .wrapper .content p {
-    font-size: 14px;
-    color: #6D6B6B;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-  .section-offer .wrapper .content em.fa.fa-heart {
-    color: #bdbdbd;
-}
-.section-offer .wrapper .content p.price{
-  font-weight: 600;
-}
-.section-offer .wrapper img {
-    border-bottom: 5px solid #8C8989;
-    width: 100%;
-}
-.section-offer .wrapper .content button.btn {
-    border-radius: 0;
-    width: 60px;
-    height: 100%;
-    padding: 2px 10px;
-}
+
 h5.category {
     font-size: 16px;
     color: #000;

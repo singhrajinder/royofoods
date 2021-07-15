@@ -1,0 +1,44 @@
+section.burger-section {
+  background: #fff;
+}
+.burger-section .wrapper {
+  padding: 30px;
+}
+h3{
+  font-weight: 300;
+}
+p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #D92330;
+}
+p span{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+button.btn.add-btn {
+  border-radius: 0;
+  width: 55px;
+  height: 28px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+h6{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+h6 ~ p{
+  font-size: 14px;
+  line-height: 18px;
+  color: #C4C4C4;
+}
+button.cart-btn{
+  width: 635px;
+  height: 52px;
+  border-radius: 15px;
+  margin-top: 30px;
+}

@@ -1,0 +1,47 @@
+.wrapper img {
+  width: 168px;
+  height: 168px;
+}
+.wrapper h3 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.wrapper p{
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #6D6B6B;
+  font-weight: 300;
+  line-height: 126.69%;
+}
+.wrapper p span{
+  font-size: 18px;
+  line-height: 21px;
+  color: #019D3F;
+}
+.star-wrapper {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #d2d0d0;
+  padding-top: 20px;
+}
+.wrapper button.btn{
+  margin-left: auto;
+  width: 55px;
+  height: 28px;
+  border-radius: 0;
+  line-height: 1.1;
+}
+span.span-star {
+  background: #019D3F;
+  color: #fff;
+  height: 28px;
+  width: 55px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+em.fa.fa-heart-o{
+  color: #6D6B6B;
+}

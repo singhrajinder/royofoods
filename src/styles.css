@@ -252,6 +252,52 @@ button.btn.btn-black.facebook {
 .p-text a{
   color: #d92330;
 }
+.select2-dropdown{
+  border: 0;
+}
+input.select2-search__field {
+  display: none;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: #ffffff;
+  color: #8C8989;
+  padding-left: 10px;
+}
+.select2-container--default .select2-results__option--selected {
+  background-color: #ffffff;
+  color: #8C8989;
+  padding-left: 10px;
+}
+ul#select2-state-dh-results {
+  border-radius: 0 0 8px 8px;
+}
+.select2-container--open .select2-dropdown--below{
+  top: 16px;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+.select2-results__option{
+  color: #8C8989;
+  padding-left: 10px;
+}
+.categories-section h5.title {
+  color: #28263e;
+  font-size: 24px;
+  position: relative;
+}
+.categories-section h5.title::after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 1px;
+  top: 10px;
+  left: 90px;
+  background: #8C8989;
+}
+@media screen and (max-width: 800px) {
+  .categories-section h5.title::after {
+    display: none;
+  }
+}
 @media screen and (max-width:400px) {
   .login-btn .email-btn button.btn{
     font-size: 14px !important;

@@ -12,6 +12,9 @@ import { OfferCardComponent } from './components/offer-card/offer-card.component
 import { CategoriesComponent } from './categories/categories.component';
 import { CategoryCardComponent } from './components/category-card/category-card.component';
 import { ParadiseComponent } from './paradise/paradise.component';
+import {TheCapitalGrilleComponent} from "./the-capital-grille/the-capital-grille.component";
+import {ViewAllCardComponent} from "./components/view-all-card/view-all-card.component";
+import {FoodCardComponent} from "./components/food-card/food-card.component";
 const routes: Routes = [
 {
     path: '',
@@ -60,6 +63,19 @@ const routes: Routes = [
     path: 'paradise',
     component: ParadiseComponent
   },
+  {
+    path: 'the-capital-grille',
+    component: TheCapitalGrilleComponent
+  },
+  {
+    path: 'view-all-card',
+    component: ViewAllCardComponent
+  },
+  {
+    path: 'food-card',
+    component: FoodCardComponent
+  },
+
   ];
 
 @NgModule({

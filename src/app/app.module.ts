@@ -17,6 +17,9 @@ import { OfferCardComponent } from './components/offer-card/offer-card.component
 import { CategoryCardComponent } from './components/category-card/category-card.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { ParadiseComponent } from './paradise/paradise.component';
+import { TheCapitalGrilleComponent } from './the-capital-grille/the-capital-grille.component';
+import { ViewAllCardComponent } from './components/view-all-card/view-all-card.component';
+import { FoodCardComponent } from './components/food-card/food-card.component';
 
 
 @NgModule({
@@ -35,6 +38,9 @@ import { ParadiseComponent } from './paradise/paradise.component';
     CategoryCardComponent,
     CategoriesComponent,
     ParadiseComponent,
+    TheCapitalGrilleComponent,
+    ViewAllCardComponent,
+    FoodCardComponent,
   ],
   imports: [
     BrowserModule,

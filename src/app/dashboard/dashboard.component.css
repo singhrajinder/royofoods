@@ -1,0 +1,20 @@
+.profile-div {
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  background: #fff;
+  border-radius: 29px;
+}
+.nav-box {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 21px;
+  border-radius: 0 0px 29px 29px;
+}
+div#v-pills-tab {
+  padding: 60px;
+}

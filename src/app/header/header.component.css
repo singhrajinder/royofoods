@@ -4,14 +4,14 @@ header{
     box-shadow: 0px 4px 8px rgb(0 0 0 / 25%);
     margin-bottom: 20px;
   }
-  ul{
+ .social-icon ul{
     list-style: none;
     display: flex;
     float: right;
     align-items: center;
     margin-top: 1em;
   }
-  li {
+ .social-icon ul li {
     margin-right: 15px;
     background: #000;
     width: 30px;
@@ -37,7 +37,7 @@ em.fa {
 }
 .search-bar em.fa{
   color: #8C8989;
-    
+
 }
 .search-bar input{
   margin-left: 10px;
@@ -48,8 +48,22 @@ em.fa {
 .button-col{
     text-align: right;
 }
+.buttons {
+  margin-left: auto;
+}
+
 .buttons button.btn {
     margin-right: 5px;
+}
+button.navbar-toggler{
+  margin-left: auto;
+  position: absolute;
+  right: -30px;
+  top: 15px;
+  background: none !important;
+  border: 0;
+  color: #d92431;
+  font-size: 34px;
 }
 .row.row-box{
     width: 316px;
@@ -71,6 +85,117 @@ span.select2-selection.select2-selection--single{
     margin-bottom: 10px;
 }
 
+.mob-nav a {
+  display: block;
+  text-align: left;
+  color: rgba(0,0,0,.9);
+  padding: 10px 11px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.mob-nav a .fa {
+  color: rgba(0,0,0,.9);
+  margin-right: 16px;
+}
+.mob-nav{
+  display: none;
+}
+.wrap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.wrap-header button{
+  text-align: right;
+  font-size: 24px;
+  line-height: 0;
+  color: #000;
+  margin-bottom: 0;
+  background: none;
+  border: 0;
+}
+li.nav-item.contact-li {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  justify-content: space-between;
+  margin-top: 0;
+  position: absolute;
+  bottom: 15px;
+}
+a.nav-link.contact-btn {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 9px;
+}
+a.nav-link.contact-btn:hover{
+  color: #fff;
+}
+.contact-div {
+  display: inherit;
+  padding: 0 10px;
+  border-left: 2px solid #eee;
+  margin-left: 20px;
+}
+.phone-icon-div {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.phone-icon-div em{
+  color: #d92330;
+  font-size: 24px;
+}
+.phone-text-div p{
+  font-size: 13px;
+  color: #8d8989;
+  margin: 0;
+  padding-top: 0;
+  margin-left: 10px;
+}
+a.nav-link.phone-no {
+  padding: 0 !important;
+  color: #d92330;
+  font-weight: 600;
+  text-align: center;
+}
+nav.navbar.navbar-expand-lg.navbar-light{
+  place-items: flex-start;
+}
+
+
+
+@media (min-width:991px) and (max-width: 1125px){
+  nav.navbar.navbar-expand-lg.navbar-light {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+}
+@media screen and (max-width: 991px){
+  .buttons{
+    display: none;
+  }
+  .mob-nav{
+    display: block;
+  }
+  div#collapsibleNavbar {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    top: 0px;
+    width: 350px;
+    background: rgb(255, 255, 255);
+    z-index: 999;
+    padding: 15px 20px;
+    box-shadow: rgb(0 0 0 / 6%) 0px 0px 30px;
+    right: 0px;
+    position: fixed;
+    height: 100%;
+  }
+}
 
 
 @media screen and (max-width: 768px){
@@ -92,4 +217,13 @@ ul{
 .row.row-box{
     margin-left: 0;
 }
+}
+@media screen and (max-width: 430px) {
+  .col-6.col-icons{
+    max-width: 100%;
+  }
+  .col-icons ul{
+    float: none;
+  }
+
 }

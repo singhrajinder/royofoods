@@ -2,58 +2,103 @@
       <div class="container-fluid">
           <div class="logo-div section-class">
               <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6 col-6">
                   <div class="image">
                     <a href="" [routerLink]="['/']"><img class="" src="assets/images/logo.png" alt="logo"></a>
                 </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6 col-6 col-icons">
                   <div class="social-icon">
                     <ul>
                       <li><a href=""><em class="fa fa-facebook" aria-hidden="true"></em></a></li>
                       <li><a href=""><em class="fa fa-twitter" aria-hidden="true"></em></a></li>
                       <li><a href=""><em class="fa fa-linkedin" aria-hidden="true"></em></a></li>
                       <li><a href=""><em class="fa fa-instagram" aria-hidden="true"></em></a></li>
+
                     </ul>
                   </div>
                 </div>
 
               </div>
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="row">
+              <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
 
-                <div class="search-box">
-                  <div class="row row-box">
-                    <div class="col-md-6 col-6">
-                      <div class="search-bar">
-                        <label for="search-bar"><em class="fa fa-search" aria-hidden="true"></em></label>
-                        <input type="text" placeholder="SEARCH" class="form-control">
+                  <div class="search-box">
+                    <div class="row row-box">
+                      <div class="col-md-6 col-6">
+                        <div class="search-bar">
+                          <label for="search-bar"><em class="fa fa-search" aria-hidden="true"></em></label>
+                          <input type="text" placeholder="SEARCH" class="form-control">
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-md-6 col-6">
-                      <div class="select--box text-right">
-                        <select class="js-example-basic-single" name="state">
-                          <option value="RT">Restaurant</option>
-                          ...
-                          <option value="HT">Hotel</option>
-                        </select>
+                      <div class="col-md-6 col-6">
+                        <div class="select--box text-right">
+                          <select class="js-example-basic-single" name="state">
+                            <option value="RT">Restaurant</option>
+                            ...
+                            <option value="HT">Hotel</option>
+                          </select>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              <button class="navbar-toggler bg-light collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
-                <i class="bx bx-menu-alt-right"></i>
-              </button>
-                
-                <div class="navbar-collapse justify-content-between collapse button-col" id="collapsibleNavbar">
-                  <div class="buttons">
-                    <button class="btn btn-black">whats trending </button>
-                    <button class="btn btn-orange" [routerLink]="['cart']"><em class="fa fa-shopping-cart" aria-hidden="true"></em> cart </button>
-                    <button class="btn btn-orange" data-toggle="modal" data-target="#myModal"><em class="fa fa-user" aria-hidden="true"></em> login </button>
-                    <button class="btn btn-orange" data-toggle="modal" data-target="#myModal1"><em class="fa fa-user-plus" aria-hidden="true"></em> signup </button>
-                  </div>
-                </div>
+                  <button class="navbar-toggler bg-light  openCustomModal" type="button"  data-target="#collapsibleNavbar" aria-expanded="false">
+                    <em class="bx bx-menu-alt-right"></em>
+                  </button>
 
-            </nav>
+                  <div class="navbar-collapse justify-content-between collapse button-col" id="collapsibleNavbar">
+                    <div class="mob-nav">
+                      <div class="wrap-header">
+                        <img src="assets/images/logo.png">
+                        <button type="button" class="close-menu closeCustomModal"><em class="bx bx-x"></em></button>
+                      </div>
+                      <div class="a-links">
+                        <ul class="navbar-nav unorder-list">
+                          <li class="nav-item">
+                            <a href="" class="nav-link active">Whats Trending</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="" class="nav-link"><em class="fa fa-shopping-cart" aria-hidden="true"></em> Cart </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="" class="nav-link"><em class="fa fa-user" aria-hidden="true"></em> Login </a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="" class="nav-link"><em class="fa fa-user-plus" aria-hidden="true"></em> Signup </a>
+                          </li>
+                          <li class="nav-item contact-li">
+                            <a class="nav-link contact-btn btn-orange" aria-current="page" href="">Contact Us</a>
+                            <div class="contact-div">
+                              <div class="phone-icon-div">
+                                <a class="nav-link phone-no" href=""><em class="bx bxs-phone"></em> </a>
+                              </div>
+
+                              <div class="phone-text-div">
+                                <p>Have Any Questions?</p>
+                                <a class="nav-link phone-no" href="">+100000000</a>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+
+
+                    </div>
+                    <div class="buttons">
+                      <button class="btn btn-black active">whats trending </button>
+                      <button class="btn btn-orange" [routerLink]="['cart']"><em class="fa fa-shopping-cart" aria-hidden="true"></em> cart </button>
+                      <button class="btn btn-orange" data-toggle="modal" data-target="#myModal"><em class="fa fa-user" aria-hidden="true"></em> login </button>
+                      <button class="btn btn-orange" data-toggle="modal" data-target="#myModal1"><em class="fa fa-user-plus" aria-hidden="true"></em> signup </button>
+<!--                      <img src="assets/images/user.png" alt="">-->
+                    </div>
+                  </div>
+
+                </nav>
+              </div>
+
+            </div>
+
 
 
           </div>

@@ -20,6 +20,7 @@ import { ParadiseComponent } from './paradise/paradise.component';
 import { TheCapitalGrilleComponent } from './the-capital-grille/the-capital-grille.component';
 import { ViewAllCardComponent } from './components/view-all-card/view-all-card.component';
 import { FoodCardComponent } from './components/food-card/food-card.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { FoodCardComponent } from './components/food-card/food-card.component';
     TheCapitalGrilleComponent,
     ViewAllCardComponent,
     FoodCardComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,

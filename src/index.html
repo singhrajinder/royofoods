@@ -32,6 +32,14 @@
   $('select').select2({
     minimumResultsForSearch: -1
   });
+
+  $(document).on('click', '.closeCustomModal', function(){
+    $('#collapsibleNavbar').hide();
+  });
+  $(document).on('click', '.openCustomModal', function(){
+    $('#collapsibleNavbar').show();
+  });
+
 </script>
 </body>
 </html>

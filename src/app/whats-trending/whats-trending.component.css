@@ -202,7 +202,7 @@ section.order-section .wrapper, .single-order-section .wrapper {
 }
 .recipes-section .star span {
     margin-right: 8px;
-    
+
     font-size: 20px;
 }
 .recipes-section span.rate {
@@ -233,5 +233,17 @@ section.order-section .wrapper, .single-order-section .wrapper {
 .trending-section .text{
     font-size: 30px;
 }
+}
+@media screen and (max-width: 300px){
+  .order-section .wrapper .content, .order-section .comment-wrapper .content, .single-order-section .wrapper .content{
+    display: block;
+  }
+  section.user-section .fourth-wrapper .content .text, .order-section .wrapper .content .text, .order-section .comment-wrapper .content .text, .single-order-section .wrapper .content .text {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  section.user-section .fourth-wrapper .content {
+    display: block;
 
+  }
 }

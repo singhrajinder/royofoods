@@ -16,6 +16,7 @@ import {TheCapitalGrilleComponent} from "./the-capital-grille/the-capital-grille
 import {ViewAllCardComponent} from "./components/view-all-card/view-all-card.component";
 import {FoodCardComponent} from "./components/food-card/food-card.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
+import { NoFoundComponent } from './components/no-found/no-found.component';
 const routes: Routes = [
 {
     path: '',
@@ -79,6 +80,10 @@ const routes: Routes = [
   {
     path: 'dashboard',
     component: DashboardComponent
+  },
+  {
+    path: 'no-found',
+    component: NoFoundComponent
   },
 
   ];

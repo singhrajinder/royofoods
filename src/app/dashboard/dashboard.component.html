@@ -1,45 +1,373 @@
 <section class="dashboard-section">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="wrapper">
-          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <h3>My Account</h3>
-            <div class="profile-div">
-              <img src="assets/images/user.png">
-              <div class="text">
-                <h5>Yogita Rai</h5>
-                <a href="" >yogita@gmail.com</a><br>
-                <a href="" >1234567890</a>
+    <div class="section-class">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="wrapper">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <h3>My Account</h3>
+              <div class="profile-div">
+                <img src="assets/images/user.png" alt="">
+                <div class="text">
+                  <h5>Yogita Rai</h5>
+                  <a href="" >yogita@gmail.com</a><br>
+                  <a href="" >1234567890</a>
+                </div>
+              </div>
+              <a class="nav-link active"  id="v-pills-info-tab" data-toggle="pill" href="#v-pills-info" role="tab" aria-controls="v-pills-info" aria-selected="false">Personal Information</a>
+              <a class="nav-link" id="v-pills-notify-tab" data-toggle="pill" href="#v-pills-notify" role="tab" aria-controls="v-pills-notify" aria-selected="false">Notifications</a>
+              <a class="nav-link" id="v-pills-chat-tab" data-toggle="pill" href="#v-pills-chat" role="tab" aria-controls="v-pills-chat" aria-selected="false">Chat Notifications</a>
+              <a class="nav-link" id="v-pills-address-tab" data-toggle="pill" href="#v-pills-address" role="tab" aria-controls="v-pills-address" aria-selected="false">Manage Address </a>
+              <a class="nav-link" id="v-pills-referrals-tab" data-toggle="pill" href="#v-pills-referrals" role="tab" aria-controls="v-pills-referrals" aria-selected="false">Referrals</a>
+              <a class="nav-link" id="v-pills-subscription-tab" data-toggle="pill" href="#v-pills-subscription" role="tab" aria-controls="v-pills-subscription" aria-selected="false">My Subscription</a>
+              <a class="nav-link" id="v-pills-wallet-tab" data-toggle="pill" href="#v-pills-wallet" role="tab" aria-controls="v-pills-wallet" aria-selected="false">My Wallet</a>
+              <a class="nav-link" id="v-pills-program-tab" data-toggle="pill" href="#v-pills-program" role="tab" aria-controls="v-pills-program" aria-selected="false">Loyality Programs</a>
+              <a class="nav-link" id="v-pills-feedback-tab" data-toggle="pill" href="#v-pills-feedback" role="tab" aria-controls="v-pills-feedback" aria-selected="false">Feedback</a>
+              <a class="nav-link" id="v-pills-booking-tab" data-toggle="pill" href="#v-pills-booking" role="tab" aria-controls="v-pills-booking" aria-selected="false">Table Bookings</a>
+              <a class="nav-link" id="v-pills-order-tab" data-toggle="pill" href="#v-pills-order" role="tab" aria-controls="v-pills-order" aria-selected="false">My Orders</a>
+              <a class="nav-link "  href="#sign-out" role="tab" aria-selected="true">Sign Out</a>
+
+            </div>
+            <div class="nav-box btn-orange">
+              Chat With Admin
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-8">
+          <div class="wrapper-second">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-info" role="tabpanel" aria-labelledby="v-pills-info-tab">
+
+                <h3 class="title">Personal Information</h3>
+                <div class="upload-img">
+                  <img src="assets/images/upload-img.png" alt=""><br>
+                  <a href="">Change Image</a>
+                </div>
+                <form class="form">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="container-text">
+                        <div class="form-group">
+                          <label>Full Name</label>
+                          <input class="form-control" type="name" placeholder="YOGITA RAI">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="btn btn-orange">SAVE</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="v-pills-notify" role="tabpanel" aria-labelledby="v-pills-notify-tab">
+                <h3 class="title">Notifications</h3>
+                <div class="border border-box">
+                  <p>No Notification Found</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-chat" role="tabpanel" aria-labelledby="v-pills-chat-tab">
+                <h3 class="title">Chat Notifications</h3>
+                <div class="border border-box">
+                  <p>No Notification Found</p>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-address" role="tabpanel" aria-labelledby="v-pills-address-tab">
+                <h3 class="title">Manage Address</h3>
+                <div class="border border-box">
+                  <p>No Address Found</p>
+                </div>
+                <button class="btn btn-orange address-btn">ADD NEW ADDRESS</button>
+              </div>
+              <div class="tab-pane fade" id="v-pills-referrals" role="tabpanel" aria-labelledby="v-pills-referrals-tab">
+                <h3 class="title">Referrals</h3>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-friend-tab" data-toggle="pill" href="#pills-friend" role="tab" aria-controls="pills-friend" aria-selected="true">Refer a Friend</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-ref-tab" data-toggle="pill" href="#pills-ref" role="tab" aria-controls="pills-ref" aria-selected="false">My Referral</a>
+                  </li>
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-friend" role="tabpanel" aria-labelledby="pills-friend-tab">
+                    <h3>Refer a Friend</h3>
+                    <p>Refer a friend and get $ 1 and your friend gets $ 0 after successful completion of his first Order.</p>
+                    <button class="btn btn-orange">REFER NOW</button>
+                    <div class="ref-buttons">
+                      <div class="ref-code">R E F - S A M J Q</div>
+                      <button class="btn btn-orange ml-5">TAP TO COPY</button>
+                    </div>
+                    <h3 >My Referral</h3>
+                    <div class="border border-box">
+                      <p>No Referral Found</p>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-ref" role="tabpanel" aria-labelledby="pills-ref-tab">...</div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-subscription" role="tabpanel" aria-labelledby="v-pills-subscription-tab">
+                <h3 class="title">My Subscription</h3>
+                <div class="upload-img">
+                  <img src="assets/images/sub-1.png" alt="">
+                  <p>Membership Plans</p>
+
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-box">
+                        <div class="card-content">
+                          <img src="assets/images/sub-2.png" alt="">
+                          <h3>TEST PLAN</h3>
+                          <span><em class="fa fa-check-circle" aria-hidden="true"></em>Free Delivery</span>
+                          <p>Minimum Order Amt:20</p>
+                          <h4>Monthly Membership</h4>
+                          <span>$ 10</span>
+                          <button class="btn-orange btn">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-box">
+                        <div class="card-content">
+                          <img src="assets/images/sub-7.png" alt="">
+                          <h3>TEST PLAN</h3>
+                          <span><em class="fa fa-check-circle" aria-hidden="true"></em>Free Delivery</span>
+                          <p>Minimum Order Amt:20</p>
+                          <h4>Monthly Membership</h4>
+                          <span>$ 10</span>
+                          <button class="btn-orange btn">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-box">
+                        <div class="card-content">
+                          <img src="assets/images/sub-3.png" alt="">
+                          <h3>TEST PLAN</h3>
+                          <span><em class="fa fa-check-circle" aria-hidden="true"></em>Free Delivery</span>
+                          <p>Minimum Order Amt:20</p>
+                          <h4>Monthly Membership</h4>
+                          <span>$ 10</span>
+                          <button class="btn-orange btn">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-box">
+                        <div class="card-content">
+                          <img src="assets/images/sub-4.png" alt="">
+                          <h3>TEST PLAN</h3>
+                          <span><em class="fa fa-check-circle" aria-hidden="true"></em>Free Delivery</span>
+                          <p>Minimum Order Amt:20</p>
+                          <h4>Monthly Membership</h4>
+                          <span>$ 10</span>
+                          <button class="btn-orange btn">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-box">
+                        <div class="card-content">
+                          <img src="assets/images/sub-5.png" alt="">
+                          <h3>TEST PLAN</h3>
+                          <span><em class="fa fa-check-circle" aria-hidden="true"></em>Free Delivery</span>
+                          <p>Minimum Order Amt:20</p>
+                          <h4>Monthly Membership</h4>
+                          <span>$ 10</span>
+                          <button class="btn-orange btn">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-box">
+                        <div class="card-content">
+                          <img src="assets/images/sub-6.png" alt="">
+                          <h3>TEST PLAN</h3>
+                          <span><em class="fa fa-check-circle" aria-hidden="true"></em>Free Delivery</span>
+                          <p>Minimum Order Amt:20</p>
+                          <h4>Monthly Membership</h4>
+                          <span>$ 10</span>
+                          <button class="btn-orange btn">BUY NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-wallet" role="tabpanel" aria-labelledby="v-pills-wallet-tab">
+                <div class="wallet-wrapper">
+                  <div class="ballance">
+                    <div class="b-text">
+                      <p class="m-0">Current Balance</p>
+                    <span>$ 0.00</span>
+                    </div>
+                    
+                    <button class="btn btn-grey">SEND MONEY TO SOMEONE</button>
+                    <button class="btn btn-orange">ADD MONEY</button>
+                  </div>
+                  
+                </div>
+                <div class="history-wrapper">History</div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-program" role="tabpanel" aria-labelledby="v-pills-program-tab">
+                <h3 class="title">Loyalty Points</h3>
+                <div class="program-wrapper">
+                  <h4>Bronze</h4>
+                  <p class="sub-para">Make an order from any restaurant and you will earn 20 % of net amount of order as a loyalty amount and minimum
+                    order amount should be $100.</p>
+                  <img src="assets/images/program.png" alt="">
+                  <div class="points-wrap">
+                    <h4>0</h4>
+                    <p> Total Loyalty Points Earned</p>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="amount-wrapper">
+                        <h3>$0.00</h3>
+                        <p> Total Amount Earned</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="amount-wrapper">
+                        <h3>$0.00</h3>
+                        <p>  Remaining Amount</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3 class="sub-head">Your Upcoming Loyalty Levels</h3>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="assets/images/point-1.png" alt="">
+                      <h6>Silver</h6>
+                      <p><span> Points : 2</span></p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="assets/images/point-2.png" alt="">
+                      <h6>Gold</h6>
+                      <p><span> Points : 4</span></p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="assets/images/point-3.png" alt="">
+                      <h6>Platinum</h6>
+                      <p><span> Points : 20</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-feedback" role="tabpanel" aria-labelledby="v-pills-feedback-tab">
+                <div class="feedback-wrapper">
+                  <h3 class="title">Share Your Feedback</h3>
+                  <form class="form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="container-text">
+                          <div class="form-group">
+                            <label>Name</label>
+                            <input type="name" class="form-control" placeholder="Name">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="container-text">
+                          <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="container-text">
+                          <div class="form-group">
+                            <label>Phone</label>
+                            <input type="phone" class="form-control" placeholder="Phone">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="container-text">
+                          <div class="form-group">
+                            <label>Description</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="container-text">
+                          <div class="form-group">
+                            <label>New Suggestion</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <button class="btn btn-orange">SUBMIT</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-booking" role="tabpanel" aria-labelledby="v-pills-booking-tab">
+                <div class="booking-wrapper">
+                  <h3 class="title">Table Bookings</h3>
+                  <div class="row">
+                    <div class="col-md-12 btn-cols">
+                      <button class="btn btn-orange">Branch Name</button>
+                      <button class="btn btn-orange">Table Name</button>
+                      <button class="btn btn-orange">Table Number</button>
+                      <button class="btn btn-orange">Seating Capacity</button>
+                      <button class="btn btn-orange">User Name</button>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="btn btn-orange">User Email</button>
+                      <button class="btn btn-orange">Booking Date</button>
+                      <button class="btn btn-orange">Order</button>
+                      <button class="btn btn-orange">Status</button>
+                      <button class="btn btn-orange">Action</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-order" role="tabpanel" aria-labelledby="v-pills-order-tab">
+                <div class="order-wrapper">
+                  <h3 class="title">My Orders</h3>
+                  <button class="btn btn-orange order">Active Orders</button>
+                  <button class="btn bg-white order order-1">Past Orders</button>
+                  <div class="border border-box">
+                    <p>No Order Found</p>
+                  </div>
+                </div>
+               
               </div>
             </div>
-            <a class="nav-link active" id="v-pills-account" data-toggle="pill" href="#v-pills-account" role="tab" aria-controls="v-pills-account" aria-selected="true">Profile</a>
-            <a class="nav-link"  id="v-pills-info" data-toggle="pill" href="#v-pills-info" role="tab" aria-controls="v-pills-info" aria-selected="false">Personal Information</a>
-            <a class="nav-link" id="v-pills-notify" data-toggle="pill" href="#v-pills-notify" role="tab" aria-controls="v-pills-notify" aria-selected="false">Notifications</a>
-            <a class="nav-link" id="v-pills-chat" data-toggle="pill" href="#v-pills-chat" role="tab" aria-controls="v-pills-chat" aria-selected="false">Chat Notifications</a>
-            <a class="nav-link" id="v-pills-address" data-toggle="pill" href="#v-pills-address" role="tab" aria-controls="v-pills-address" aria-selected="false">Manage Address </a>
-            <a class="nav-link" id="v-pills-referrals" data-toggle="pill" href="#v-pills-referrals" role="tab" aria-controls="v-pills-referrals" aria-selected="false">Referrals</a>
-            <a class="nav-link" id="v-pills-subscription" data-toggle="pill" href="#v-pills-subscription" role="tab" aria-controls="v-pills-subscription" aria-selected="false">My Subscription</a>
-            <a class="nav-link" id="v-pills-program" data-toggle="pill" href="#v-pills-program" role="tab" aria-controls="v-pills-program" aria-selected="false">Loyality Programs</a>
-            <a class="nav-link" id="v-pills-feedback" data-toggle="pill" href="#v-pills-feedback" role="tab" aria-controls="v-pills-feedback" aria-selected="false">Feedback</a>
-            <a class="nav-link" id="v-pills-booking" data-toggle="pill" href="#v-pills-booking" role="tab" aria-controls="v-pills-booking" aria-selected="false">Table Bookings</a>
+          </div>
 
-          </div>
-          <div class="nav-box btn-orange">
-            Chat With Admin
-          </div>
         </div>
-
       </div>
-      <div class="col-md-8">
-        <div class="wrapper">
-          <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-account" role="tabpanel" aria-labelledby="v-pills-account">
-              gm
-            </div>
-          </div>
-        </div>
+    </div>
 
+  </div>
+</section>
+<section class="border-bottom-section ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="wrap border-bottom">
+        </div>
       </div>
     </div>
   </div>

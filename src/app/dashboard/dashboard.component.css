@@ -47,6 +47,7 @@
   line-height: 21px;
   color: #6D6B6B;
   background: none;
+  padding: .5rem 0;
 }
 .wrapper div#v-pills-tab .nav-link:hover{
   color: #d92330 !important;
@@ -78,6 +79,7 @@
 form.form {
   width: 600px;
   margin: auto;
+  max-width: 100%;
 }
 input.form-control {
   border: 1px solid #CAC8C8;
@@ -283,6 +285,7 @@ textarea {
   height: 42px;
   margin-right: 10px;
   font-size: 12px;
+  margin-bottom: 10px;
 }
 .btn-cols{
   margin: 20px 0 100px;
@@ -331,4 +334,71 @@ button.btn.btn-grey {
 font-size: 21px;
 line-height: 25px;
 color: #000000;
+}
+.ref-buttons button.btn{
+  margin-left: 50px;
+}
+.ballance button.btn{
+  margin-right: 10px;
+}
+@media screen and (max-width:576px){
+  .ballance{
+    display: block;
+  }
+  .b-text{
+    margin-bottom: 10px;
+  }
+  .ballance button.btn{
+    margin-bottom: 10px;
+  }
+  .wrapper div#v-pills-tab{
+    padding: 0 0;
+    position: relative;
+    width: 1700px;
+  }
+  .wrapper div#v-pills-tab.flex-column{
+    flex-direction: row !important;
+  }
+  .nav-horizontal-mobile{
+    overflow-x: scroll;
+    padding: 0;
+}
+.wrapper{
+  background: none;
+  border-radius: 0;
+}
+.wrapper div#v-pills-tab .nav-link{
+  font-size: 16px;
+  margin-right: 10px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 9px 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px -5px rgb(0 0 0 / 50%);
+    text-align: center;
+    display: block;
+}
+.wrapper div#v-pills-tab h3, .profile-div, .nav-box{
+  display: none;
+}
+}
+@media screen and (max-width:488px){
+  .ref-buttons{
+    display: block;
+  }  
+  .ref-code{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ref-buttons button.btn{
+    margin-left: 0px;
+    width: 100%;
+  }
+  /* .profile-div{
+    display: block;
+  } */
+  .profile-div .text{
+    padding-left: 0;
+    padding-top: 20px;
+  }
 }

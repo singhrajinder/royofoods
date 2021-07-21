@@ -56,16 +56,16 @@
                       <div class="a-links">
                         <ul class="navbar-nav unorder-list">
                           <li class="nav-item">
-                            <a href="" class="nav-link active">Whats Trending</a>
+                            <a href="" [routerLink]="['whats-trending']" class="nav-link active">Whats Trending</a>
                           </li>
                           <li class="nav-item">
-                            <a href="" class="nav-link"><em class="fa fa-shopping-cart" aria-hidden="true"></em> Cart </a>
+                            <a href="" [routerLink]="['cart']" class="nav-link"><em class="fa fa-shopping-cart" aria-hidden="true"></em> Cart </a>
                           </li>
                           <li class="nav-item">
-                            <a href="" class="nav-link"><em class="fa fa-user" aria-hidden="true"></em> Login </a>
+                            <a href="" class="nav-link" data-toggle="modal" data-target="#myModal"><em class="fa fa-user" aria-hidden="true"></em> Login </a>
                           </li>
                           <li class="nav-item">
-                            <a href="" class="nav-link"><em class="fa fa-user-plus" aria-hidden="true"></em> Signup </a>
+                            <a href="" class="nav-link" data-toggle="modal" data-target="#myModal1"><em class="fa fa-user-plus" aria-hidden="true"></em> Signup </a>
                           </li>
                           <li class="nav-item contact-li">
                             <a class="nav-link contact-btn btn-orange" aria-current="page" href="">Contact Us</a>
@@ -86,14 +86,33 @@
 
                     </div>
                     <div class="buttons">
-                      <button class="btn btn-black active">whats trending </button>
+                      <button class="btn btn-black active" [routerLink]="['whats-trending']">whats trending </button>
                       <button class="btn btn-orange" [routerLink]="['cart']"><em class="fa fa-shopping-cart" aria-hidden="true"></em> cart </button>
                       <button class="btn btn-orange" data-toggle="modal" data-target="#myModal"><em class="fa fa-user" aria-hidden="true"></em> login </button>
                       <button class="btn btn-orange" data-toggle="modal" data-target="#myModal1"><em class="fa fa-user-plus" aria-hidden="true"></em> signup </button>
 <!--                      <img src="assets/images/user.png" alt="">-->
                     </div>
                   </div>
-
+                  <li id="" class="nav-item dropdown list-unstyled show li-first" style="display: inline-block; margin-left: 30px;">
+                    <a href="" data-toggle="dropdown" class="dropdown-toggle img-after" aria-expanded="true">
+                      <img src="assets/images/user.png" width="30" class="user-icon">
+                    </a>
+                    <ul class="dropdown-menu profile-dropdown ">
+                      <li class="dropdown-item"><a  href=""> <div class="profile-div">
+                        <img src="assets/images/user.png" alt="">
+                        <div class="text">
+                          <h5>Yogita Rai</h5>
+                          <a href="" >yogita@gmail.com</a><br>
+                          
+                        </div>
+                      </div> </a></li>
+                      
+                      <li class="dropdown-item" ><a href="" [routerLink]="['dashboard']"> Dashboard</a></li>
+                      <li class="nav-item dropdown my-acc"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle"> &nbsp;My Account</a></li>
+                      <li class="nav-item dropdown my-acc"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle"> &nbsp;My Orders</a></li>
+                      <li class="dropdown-item"><a href=""> Sign Out </a></li>
+                    </ul>
+                    
                 </nav>
               </div>
 

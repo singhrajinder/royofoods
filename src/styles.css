@@ -298,6 +298,11 @@ ul#select2-state-dh-results {
     display: none;
   }
 }
+@media screen and (max-width:576px){
+  .section-class {
+    margin: 0 20px;
+}
+}
 @media screen and (max-width:400px) {
   .login-btn .email-btn button.btn{
     font-size: 14px !important;

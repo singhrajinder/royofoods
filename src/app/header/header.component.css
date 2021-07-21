@@ -9,7 +9,7 @@ header{
     display: flex;
     float: right;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 1.5em;
   }
  .social-icon ul li {
     margin-right: 15px;
@@ -58,7 +58,7 @@ em.fa {
 button.navbar-toggler{
   margin-left: auto;
   position: absolute;
-  right: -30px;
+  right: 50px;
   top: 15px;
   background: none !important;
   border: 0;
@@ -167,14 +167,65 @@ nav.navbar.navbar-expand-lg.navbar-light{
 }
 
 
+ul.dropdown-menu.profile-dropdown{
+  left: unset ;
+  right: 0 ;
+  top: 30px;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    width: 250px;
+    
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #f8f9fa !important;
+}
+.dropdown a {
+  font-weight: normal;
+  font-size: 18px;
+  color: #8C8989;
+}
+
+.dropdown-toggle.img-after::after{
+  display: none;
+}
+/* li.nav-item.dropdown.list-unstyled.show{
+  position: absolute;
+    right: 0;
+} */
+.profile-div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 20px;
+}
+.profile-div .text {
+  padding-left: 20px;
+}
+.profile-div .text h5 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6D6B6B;
+  margin-bottom: 0;
+}
+.profile-div .text a {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #B1B1B1;
+}
 
 @media (min-width:991px) and (max-width: 1125px){
   nav.navbar.navbar-expand-lg.navbar-light {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 55% 10%;
   }
+  
 }
 @media screen and (max-width: 991px){
+  li.nav-item.dropdown.li-first {
+    margin-top: 12px ;
+}
   .buttons{
     display: none;
   }
@@ -209,6 +260,15 @@ nav.navbar.navbar-expand-lg.navbar-light{
     text-align: left;
 }
 }
+@media screen and (max-width: 600px){
+  button.navbar-toggler{
+    position: relative;
+    right: 0;
+  }
+  li.nav-item.dropdown.li-first{
+    margin-top: 20px;
+  }
+}
 @media screen and (max-width: 576px){
 ul{
     float: none;
@@ -216,14 +276,33 @@ ul{
 }
 .row.row-box{
     margin-left: 0;
+    width: 100%;
 }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 375px){
+  li.nav-item.contact-li{
+    position: relative;
+    bottom: 0;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
   .col-6.col-icons{
     max-width: 100%;
   }
   .col-icons ul{
     float: none;
   }
+  .social-icon ul{
+    margin-top: 0;
+  }
+  .row.row-box{
+    width: 100%;
+  }
+  
+  .navbar{
+    padding: 0;
+  }
+  
 
 }
